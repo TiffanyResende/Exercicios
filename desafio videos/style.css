@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+h1 {
+    color: rgb(23, 43, 131);
+    text-align: center;
+}
+
+
+.videos {
+    background-color: rgb(70, 159, 211);
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+h2{
+    color: white;
+}
+
+.curso {
+    background-color:rgb(70, 159, 211) ;
+    padding: 20px;
+    text-align: center;
+      
+}
+.button {
+    text-align: left;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
