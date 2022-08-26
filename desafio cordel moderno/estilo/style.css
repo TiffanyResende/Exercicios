@@ -38,8 +38,16 @@ header >h1{
     font-variant: small-caps;
     font-size: 10vw;
 }
+header>p#autor{
+    padding-bottom: 40px;
+}
+
 header>p{
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+audio{
+    padding-bottom: 10px;
 }
 
 header a, footer a{
@@ -70,14 +78,34 @@ section.normal{
 section.imagem{
     background-color: rgba(0, 0, 0, 0.473);
     color: white;
+    box-shadow: inset 6px 6px 13px 6px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 section.imagem>p{
     display: inline-block;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.322);
+    background-color: rgba(0, 0, 0, 0.644);
+    text-shadow: 2px 1px 0px black;
 }
 
+section>p{
+    padding-bottom: 2em;
+}
+section#img01{
+    background-image: url('../imagens/cordel1.jpg');
+    
+
+}
+
+section#img02{
+    background-image: url('../imagens/cordel2.jpg');
+   
+  
+
+}
 footer{
     background-color: black;
     color: white;
